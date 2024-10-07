@@ -28,9 +28,7 @@ window.addEventListener("scroll", () => {
 });
 // fetching news data from a website providing api
 
-const apiKey = "29f8e42efe874ee2be23f0d1edb6844b";
-// 
-// 48278fa40a0f4e0c994abc128df68d44
+const apiKey = "48278fa40a0f4e0c994abc128df68d44";
 
 const fetchData = async (category, pageSize) => {
   const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&pageSize=${pageSize}&apiKey=${apiKey}`;
